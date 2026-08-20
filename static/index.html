@@ -1,1 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snake Clash</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="app">
+    <header><div><p class="eyebrow">CLASSIC MULTIPLAYER SNAKE</p><h1>SNAKE <span>CLASH</span></h1></div><div id="connection" class="status">● CONNECTING</div></header>
+    <section class="game-layout">
+      <div class="board-wrap"><canvas id="game" width="900" height="600"></canvas><div id="round-message" style="display:none;position:absolute;inset:0;z-index:2;place-items:center;align-content:center;text-align:center;background:#060b18ae;backdrop-filter:blur(3px);color:#f3f8ff;font-size:29px;font-weight:900;letter-spacing:.06em;text-shadow:0 0 24px #62e9ff"></div><div id="overlay"><div class="join-card"><p class="eyebrow">ENTER THE ARENA</p><h2>Choose your pilot name</h2><form id="join-form"><input id="name" maxlength="18" placeholder="Your name" autocomplete="nickname" required autofocus><button>PLAY NOW</button></form><p class="hint">Arrow keys or WASD to steer · Don't hit a wall or another snake.</p></div></div></div>
+      <aside><div class="panel"><p class="eyebrow">SCOREBOARD</p><ol id="leaderboard"><li class="empty">Waiting for players…</li></ol></div><div class="panel how"><p class="eyebrow">HOW TO PLAY</p><p>Eat the red apples. Each one adds 10 points and makes your snake longer.</p><p>Any crash ends the round. A fresh game starts in 3 seconds.</p></div></aside>
+    </section>
+    <footer>ARROW KEYS OR WASD TO MOVE</footer>
+  </main>
+  <script src="/static/game.js"></script>
+</body>
+</html>
 
