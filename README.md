@@ -13,7 +13,7 @@ pip install -r requirements.txt
 uvicorn snake_clash:app --reload --port 8002
 ```
 
-Open http://127.0.0.1:8002 in two or more browser tabs to play together. Use arrow keys or WASD. Pressing a direction updates the server, which broadcasts game state ten times a second.
+Open http://127.0.0.1:8002 or https://snake-clash-9sb4.onrender.com in two or more browser tabs to play together. Use arrow keys or WASD. Pressing a direction updates the server, which broadcasts game state ten times a second.
 
 ## Deploy to Render
 
