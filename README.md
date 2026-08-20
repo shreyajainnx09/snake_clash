@@ -1,4 +1,4 @@
-# Snake Clash
+# Snake Clash https://snake-clash-9sb4.onrender.com
 
 Real-time multiplayer Snake Clash built with FastAPI, WebSockets, HTML5 Canvas, and vanilla JavaScript. The Python server owns all game state; browsers only send direction inputs and render server updates.
 
