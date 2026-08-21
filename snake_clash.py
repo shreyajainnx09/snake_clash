@@ -14,7 +14,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 GRID_WIDTH, GRID_HEIGHT = 36, 24
-TICK_SECONDS = 0.10
+TICK_SECONDS = 0.15
 SPAWN_DELAY = 3.0
 COLORS = ["#4f8f23", "#e59b23", "#8b4d99", "#277b9e", "#bf4242", "#6f7825"]
 Point = Tuple[int, int]
